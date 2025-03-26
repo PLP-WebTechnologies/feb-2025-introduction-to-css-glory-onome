@@ -1,0 +1,84 @@
+header {
+    width: 100%
+}
+.container {
+    border: 4px double black;
+    background-color: rgba(0, 2, 128, 0.959);
+    width: 50%;
+    padding: 3rem 3rem 3rem 3rem;
+    margin-top: -2rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    color:cornflowerblue;
+}
+
+h2 { 
+    font-weight: bold;
+    color: blue
+}
+    p{
+        text-align: justify ;
+        width: 60ch;
+        line-height: 1.5;
+    }
+    .caption{
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   body {
+    padding: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    img {
+        width: 300px; /* Resize */
+        border-radius: 15px; /* Rounded corners */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Shadow */
+        transition: transform 0.3s ease-in-out;
+        margin: 1rem
+      }
+      
+      img:hover {
+        transform: scale(1.1); /* Zoom effect on hover */
+      }
+      .fill-out {
+        text-align: center;
+        width: 80%;
+        align-items: center;
+
+
+      }
+
+      .follow {
+         text-align: center;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 18px;
+        text-align: left;
+      }
+      
+      th, td, caption {
+        padding: 12px;
+        border: 1px solid #ddd;
+      }
+      
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      
+      tr:hover {
+        background-color: #ddd;
+      }
+      
+      
